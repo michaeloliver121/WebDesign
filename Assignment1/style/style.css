@@ -1,7 +1,7 @@
 h1 {
     padding: 35px;
     text-align: center;
-    background-color: snow;
+    background-color: steelblue;
 }
 
 h2, h3 {
@@ -9,6 +9,6 @@ h2, h3 {
 }
 
 body{
-    background-color: powderblue;
+    background-color: slategray;
     text-align: center;
 }
