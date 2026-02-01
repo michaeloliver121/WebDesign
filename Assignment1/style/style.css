@@ -1,19 +1,33 @@
 h1 {
-    padding: 35px;
+    padding: 20px;
     text-align: center;
-    background-color: steelblue;
+    background-color: 18303C;
+    color: D6DDBF;
+    font-family:'Courier New', Courier;
 }
 
-h2, h3 {
+h2  {
+    padding: 2px;
     text-align: center;
+    color: 8BA296;
+    font-family:'Courier New', Courier;
+}
+
+h3 {
+    padding: 2px;
+    text-align: center;
+    color: 8BA296;
+    font-family:'Courier New', Courier, monospace;
 }
 
 body{
-    background-color: lightsteelblue;
+    background-color: 18303C;
     text-align: center;
+    color: D6DDBF;
+    font-family:'Courier New', Courier, monospace;
 }
 
 p {
-    max-width: 60%;
+    max-width: 75%;
     margin: 0 auto;
 }
