@@ -1,6 +1,7 @@
-# Roadside Picnic
+# Peer Feedback
 
-## A Novel by Boris and Arkady Strugatsky
+I only had one bit of peer feedback for this assignment and it was something that I had already planned on doing, but I basically just changed the font up a bit for me legibility. I made it match the colors of the Roadside Picnic cover art so the page comes together a bit more and makes it a bit easier to read overall!
 
-Roadside Picnic is a 1972 science fiction novel by Russian authors Arkady and Boris Strugatsky, exploring the aftermath of a brief alien visitation that left behind mysterious, dangerous "Zones" filled with valuable artifacts. The story follows "stalkers," illegal scavengers who risk their lives to retrieve these alien objects from the hazardous Zones for a black market, all while dealing with the philosophical questions of humanity's place in the universe, inspired by the idea that the aliens' visit was merely a "roadside picnic".
+# Reflection
 
+I genuinely don't know why I was struggling with Figma so much, but I am so used to using apps like InDesign, I think the different layouts had me really confused. I noticed that if I typed out my full paragraphs on Figma, they would just completely go off the page and exit their text boxes, which I though was weird. I also couldn't figure out how to add more text boxes without it doing the same and pretty much changing the entire document. Weirdly enough, at least right now, I think HTML is a bit easier for me to understand, but I would like to learn more about Figma moving forward. Anyways, I think the page came together well for what it is, I had to do some digging to remember exactly how to change text color, font, and embedding images... but I think it turned out great! Sorry it doesn't fully match the Figma website though, it was really a struggle! 😳
