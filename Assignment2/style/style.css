@@ -6,34 +6,70 @@ body{
 }
 
 .header{
-    border: 1px solid black;
-    padding: 35px;
     text-align: center;
-    background-color: 8BA296;
+    background-color: 0C171D;
+    display: inline-block;
+    border-radius: 15px;
+    width: 1000px;
+    margin-bottom: 25px;
 }
 
 .chapter-heading{
     color: D6DDBF;
     font-family:'Courier New', Courier;
-    padding: 35px;
+    padding: 10px;
     text-align: center;
 }
 
 h3 {
-    padding: 2px;
+    margin-bottom: 1px;
+    margin-top: 1px;
     text-align: center;
     color: 8BA296;
     font-family:'Courier New', Courier, monospace;
+    font-size: 18pt;
+}
+
+h4 {
+    padding: 2px;
+    text-align: center;
+    color: 18303C;
+    font-family:'Courier New', Courier, monospace;
+    display: inline-block;
+    border-radius: 35px;
+    width: 950px;
+    background-color: 8BA296;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
-    max-width: 75%;
+    max-width: 1000px;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 li {
   list-style-type: none;
-  color: navy; /* I'm not sure why I can't seem to change this? Is navy and purple an automatic default when clicking a link? */
   display: inline-block;
   font-family: 'Courier New', Courier, monospace;
+  text-align: right;
+}
+
+a {
+    color: #D6DDBF; /* Thanks Paisley! */
+}
+
+.page-tabs{
+    text-align: right;
+    margin-right: 250px;
+    margin-top: 25px;
+}
+
+.chapter{
+    background-color: 0C171D;
+    border-radius: 35px;
+    max-width: 1050px;
+    margin: auto;
+    margin-top: 25px;
 }
