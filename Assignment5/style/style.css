@@ -13,17 +13,16 @@
 }
 
 .gallery {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 50px;
-    gap: 50px;
-    flex-wrap: wrap;
+    gap: 35px;
 }
 
 .card {
-    width: 80%;
+    width: 100%;
     max-width: 1000px;
     background-color: #3a3a3a;
     border-radius: 25px;
@@ -35,6 +34,43 @@
 .card-image {
     position: relative;
     /*Allows overlay to be on top of the image... very cool*/
+}
+
+.featured-card {
+    grid-column: 1 / -1;
+    justify-self: center;
+    border-radius: 25px;
+    border: 1px solid #555;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.featured-card img {
+    height: 450px;
+    max-width: 1050px;
+    border-radius: 25px;
+    border: 1px solid #555;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.featured-label {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-family: "Metamorphous", serif;
+    color: #ffd98f;
+    font-size: 60px;
+    margin-top: 25px;
+}
+
+.featured-wrapper {
+    grid-column: 1 / -1;
+    padding: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+
 }
 
 .card-image:hover img {
@@ -132,7 +168,7 @@ input:focus {
     text-decoration: none;
     padding: 8px 16px;
     border-radius: 6px;
-    background-color: #ffcc70; 
+    background-color: #ffcc70;
     color: #303234;
     font-family: "Metamorphous", serif;
     font-weight: bold;
