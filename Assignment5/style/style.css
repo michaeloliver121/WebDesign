@@ -160,6 +160,7 @@ input:focus {
     padding: 20px;
 }
 
+
 .navbar {
     font-family: "Metamorphous", serif;
 }
@@ -187,14 +188,54 @@ input:focus {
 
 
 
-.post-page {
+.kenshi-post-page {
     padding: 3px 1.5px;
+    background-image: 
+        linear-gradient(rgba(42, 42, 42, 0.75), rgba(42, 42, 42, 0.85)),
+        url("../images/kenshi/kenshimap.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
+
+
+.banner-post-page {
+    padding: 3px 1.5px;
+    background-image: 
+        linear-gradient(rgba(42, 42, 42, 0.75), rgba(42, 42, 42, 0.85)),
+        url("../images/vlandia/bannermap.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.rdr-post-page {
+    padding: 3px 1.5px;
+    background-image: 
+        linear-gradient(rgba(42, 42, 42, 0.75), rgba(42, 42, 42, 0.85)),
+        url("../images/rdr/rdrmap.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.ace-post-page {
+    padding: 3px 1.5px;
+    background-image: 
+        linear-gradient(rgba(42, 42, 42, 0.75), rgba(42, 42, 42, 0.85)),
+        url("../images/ace/acemap.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
 
 .blog-post {
     max-width: 1000px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.70);
     padding: 2rem;
     border-radius: 16px;
     box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
@@ -262,4 +303,122 @@ input:focus {
 .post-button:hover {
     background-color: #a8824d;
     transform: scale(1.03);
+}
+
+
+.about-card {
+    max-width: 1100px;
+    margin: 0 auto 60px;
+    padding: 35px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 18px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+}
+
+.about-card h2 {
+    font-family: "Metamorphous", serif;
+    color: #ffd98f;
+    margin-bottom: 20px;
+}
+
+.dropdown-menu {
+    background-color: #3a3a3a;
+    border: 1px solid #555;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.dropdown-item {
+    color: #e0e0e0;
+    font-family: "Metamorphous", serif;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.dropdown-item:hover {
+    background-color: #ffcc70;
+    color: #2a2a2a;
+}
+
+.commission-status {
+    text-align: center;
+    font-family: "Metamorphous", serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.status-open {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+.commission-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 700px;
+    margin: 30px auto 0;
+}
+
+.commission-form input,
+.commission-form textarea {
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #555;
+    background-color: rgba(255, 255, 255, 0.06);
+    color: #e0e0e0;
+    font-family: inherit;
+}
+
+.commission-form input:focus,
+.commission-form textarea:focus {
+    outline: 2px solid #ffcc70;
+    border-color: #ffcc70;
+}
+
+.submit-button {
+    align-self: center;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffcc70;
+    color: #2a2a2a;
+    font-family: "Metamorphous", serif;
+    font-weight: bold;
+    transition: 0.2s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.submit-button:hover {
+    background-color: #ffd98f;
+    transform: scale(1.05);
+}
+
+
+
+body {
+    animation: fadeIn 0.7s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }

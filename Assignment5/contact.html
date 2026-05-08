@@ -12,31 +12,37 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 
-<main>
-    <!-- Add this section. Your core content goes here -->
-</main>
-
 <body>
 
 
-    <nav class="navbar navbar-expand-lg"> 
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="blog.html">🧭</a>
+            <a class="navbar-brand" href="index.html">🧭</a>
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Projects
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="kenshi.html">Kenshi</a></li>
+                            <li><a class="dropdown-item" href="bannerlord.html">Bannerlord</a></li>
+                            <li><a class="dropdown-item" href="rdr.html">Red Dead Redemption</a></li>
+                            <li><a class="dropdown-item" href="ace.html">Albeni Falls Dam</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -48,8 +54,49 @@
         <h1>Contact</h1>
     </header>
 
+    <section class="about-card">
+        <h2 style="text-align: center;">Need to Get in Touch?</h2>
 
-    <footer>
+        <p style="text-align: center;">
+            I am always available to chat! Find me at my socials below:
+        <div class="link-bar">
+            <a href="https://www.etsy.com/shop/LoreBirdMaps" target="_blank" class="link-button">Etsy</a>
+            <a href="https://www.instagram.com/lorebirdmaps" target="_blank" class="link-button">Instagram</a>
+            <a href="mailto:youremail@example.com" class="link-button">Email</a>
+        </div>
+        </p>
+    </section>
+
+    <section class="about-card">
+        <h2 style="text-align: center;">Want a Commission?</h2>
+        <p class="commission-status">
+            Commissions:
+            <span class="status-open">OPEN</span>
+        </p>
+
+        <p style="text-align: center;">
+            Fill out the form below to tell me about your project, and I will reach out as soon as I can!
+        </p>
+
+        <form class="commission-form">
+
+            <input type="text" name="name" placeholder="Your Name" required>
+
+            <input type="email" name="email" placeholder="Your Email" required>
+
+            <input type="text" name="project" placeholder="Project Type">
+
+            <textarea name="details" rows="6" placeholder="Tell me about your commission idea..."></textarea>
+
+            <button type="submit" class="submit-button">
+                Send Inquiry
+            </button>
+
+        </form>
+    </section>
+
+
+    <footer style="text-align: center;">
         <p>&copy; <span id="year"></span> Michael Oliver</p>
 
         <script>
